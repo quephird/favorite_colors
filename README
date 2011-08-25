@@ -13,3 +13,11 @@ It's not perfect, as I have two things that feel a bit dirty:
 
 * I have to manually create the nested form element names since I could not figure out how to take advantage of fields_for in this case.
 * There are no checkboxes; it seems better to have a user assert that a record "counts" through a checkbox versus whether or not an attribute is null. This would not scale if I had to introduce a second attribute.
+
+To get everything running, do the following from within the top level project directory:
+
+* bundle install
+* rake db:schema:load
+* rake db:seed
+* rails server
+
