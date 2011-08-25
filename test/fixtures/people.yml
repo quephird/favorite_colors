@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  weight: 1
+  height: MyString
+
+two:
+  name: MyString
+  weight: 1
+  height: MyString
